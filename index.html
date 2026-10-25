@@ -1,113 +1,790 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Denbow | Computer Science ePortfolio</title>
+    <title>CS 499 ePortfolio | Joshua Denbow</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            color: #263445;
+            background-color: #f4f7fa;
+        }
+
+        header {
+            background-color: #172c43;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            color: #d5e0ec;
+            margin-bottom: 0;
+        }
+
+        nav {
+            background-color: #244561;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            background-color: #376587;
+            border-radius: 5px;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            border: 1px solid #e1e6eb;
+        }
+
+        h2 {
+            color: #173e60;
+            border-bottom: 2px solid #dce6ef;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #245879;
+            margin-top: 25px;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #245879;
+            color: white;
+            padding: 10px 17px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 6px 8px 6px 0;
+        }
+
+        .button:hover {
+            background-color: #173e60;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: 0;
+        }
+
+        .project-info {
+            background-color: #eef4f8;
+            padding: 18px;
+            border-left: 4px solid #245879;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #172c43;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.7rem;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            nav a {
+                padding: 6px 8px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>Joshua Denbow's Computer Science ePortfolio</h1>
-        <p>CS 499 Computer Science Capstone</p>
-    </header>
+<header>
+    <h1>Computer Science ePortfolio</h1>
+    <p>Joshua Denbow | Southern New Hampshire University</p>
+    <p>CS 499 Computer Science Capstone</p>
+</header>
 
-    <nav>
-        <ul>
-            <li><a href="#self-assessment">Professional Self-Assessment</a></li>
-            <li><a href="#code-review">Code Review</a></li>
-            <li><a href="#original-artifact">Original Artifact</a></li>
-            <li><a href="#software-design">Software Design and Engineering</a></li>
-            <li><a href="#algorithms">Algorithms and Data Structures</a></li>
-            <li><a href="#databases">Databases</a></li>
-        </ul>
-    </nav>
+<nav>
+    <a href="#self-assessment">Self-Assessment</a>
+    <a href="#overview">Project Overview</a>
+    <a href="#code-review">Code Review</a>
+    <a href="#original">Original Artifact</a>
+    <a href="#enhancement-one">Software Engineering</a>
+    <a href="#enhancement-two">Algorithms</a>
+    <a href="#enhancement-three">Databases</a>
+</nav>
 
-    <main>
+<main>
 
-        <!-- Professional Self-Assessment -->
-        <section id="self-assessment">
-            <h2>Professional Self-Assessment</h2>
-        </section>
+<!-- PROFESSIONAL SELF-ASSESSMENT -->
+
+<section id="self-assessment">
+
+    <h2>Professional Self-Assessment</h2>
+
+    <p>
+        Throughout my time in the Computer Science program at Southern
+        New Hampshire University, I've learned a lot about programming,
+        software development, and what goes into creating a good
+        application. When I first started studying computer science,
+        I was mostly focused on learning different programming
+        languages and getting my programs to work correctly. As I
+        worked through more courses and projects, I started to
+        understand how important things like organization, testing,
+        security, and planning really are. Completing my CS 499
+        capstone has given me a chance to look back at some of my
+        earlier work and see how much I've improved since starting
+        the program.
+    </p>
+
+    <p>
+        One thing I've learned is that being a good developer involves
+        more than just knowing how to write code. Communication and
+        collaboration are also important, especially when working
+        with other developers or explaining technical information
+        to people who aren't familiar with programming. Throughout
+        my courses, I've had opportunities to explain my work,
+        discuss different approaches to solving problems, and think
+        about how software can meet the needs of different users.
+        I've also learned that good documentation and clear
+        communication can make a big difference when working on
+        larger projects or making changes to existing code. These
+        are skills I plan to continue improving as I gain experience
+        working in the field.
+    </p>
+
+    <p>
+        I've also gained experience with several different areas
+        of computer science, including software engineering,
+        algorithms, and databases. One example is my CS 465 Full
+        Stack Development project, where I worked on a travel
+        booking website called Travlr Getaways. That project
+        involved using Node.js, Angular, MongoDB, and a REST API
+        to connect different parts of the application. It helped
+        me better understand how front-end and back-end systems
+        work together and how important it is to keep code
+        organized. I've also worked quite a bit with Python
+        throughout my courses, including projects involving data
+        analysis and artificial intelligence. These experiences
+        have helped me become more comfortable working through
+        problems and learning new technologies when needed.
+    </p>
+
+    <p>
+        Another area where my understanding has improved is security.
+        Earlier in my education, I was mainly concerned with whether
+        a program worked the way it was supposed to. Now I understand
+        that it's just as important to think about how an application
+        handles information and what could go wrong if something
+        isn't properly protected. I've learned more about input
+        validation, password security, database constraints, and
+        protecting stored data. These are things I try to keep in
+        mind when developing software, and I know they'll continue
+        to be important in any future projects I work on.
+    </p>
+
+    <p>
+        For my CS 499 capstone, I decided to improve an Android
+        inventory management application that I originally created
+        in CS 360 Mobile Architecture and Programming. I chose
+        this project because it gave me a good opportunity to
+        demonstrate skills in all three required categories:
+        software design and engineering, algorithms and data
+        structures, and databases. The original version was a
+        fairly simple inventory app that allowed users to manage
+        items, but there was plenty of room to improve how it
+        was organized and what it could do.
+    </p>
+
+    <p>
+        My first enhancement focused on software design and
+        engineering. I reorganized the application so that the
+        user interface, business logic, and database operations
+        were handled separately. I also improved the interface
+        and added better input validation and error handling.
+        These changes made the application easier to maintain
+        and gave it a better overall structure. For my second
+        enhancement, I added a restock recommendation system
+        using a priority queue. This allows the application
+        to identify inventory items that are running low and
+        rank them based on how urgently they need to be
+        restocked. It was a good way to apply what I've learned
+        about algorithms and data structures to something
+        practical. My third enhancement focused on the database.
+        I expanded the original SQLite database to include
+        separate tables for users, categories, inventory, and
+        transaction history. I also added reporting features
+        and improved how inventory changes are recorded.
+    </p>
+
+    <p>
+        I think one of the biggest benefits of using the same
+        application for all three enhancements was being able
+        to see how the different areas of computer science
+        connect. The software engineering changes helped
+        organize the application, the algorithm made it more
+        useful, and the database improvements allowed it to
+        store and manage information more effectively.
+        Security was also something I considered throughout
+        the process. Instead of working on three completely
+        separate projects, I was able to build on the same
+        application and make improvements that worked together.
+    </p>
+
+    <p>
+        Working on this capstone also helped me improve my ability
+        to manage larger projects. One thing I've found challenging
+        in the past is keeping everything organized as a project
+        grows. Having to revisit my original application, review
+        its code, plan out changes, and implement them in stages
+        helped me get better at that. I also ran into some issues
+        with the development environment and build process along
+        the way, which gave me more experience troubleshooting
+        problems. Being able to compare the original version
+        of InventoryApp to the completed version has been a
+        good reminder of how much I've learned throughout
+        the program.
+    </p>
+
+    <p>
+        As I get closer to finishing my degree, I'm interested
+        in pursuing a career involving software development
+        or data management. I enjoy programming and solving
+        problems, especially when I can see how the finished
+        application could be useful in a real situation.
+        I also know there's still a lot for me to learn,
+        and I want to keep building on the skills I've
+        developed throughout my education. Whether that
+        means learning new technologies, working on different
+        kinds of projects, or gaining experience in a
+        professional environment, I'm looking forward to
+        continuing to improve.
+    </p>
+
+    <p>
+        Overall, this ePortfolio is a way for me to show what
+        I've learned throughout the Computer Science program
+        and how I've grown as a developer. My completed
+        InventoryApp demonstrates my skills in software
+        engineering, algorithms, databases, and security,
+        while the other projects I've worked on have helped
+        me build a broader understanding of computer science.
+        Completing this capstone has given me more confidence
+        in my abilities and helped prepare me for the next
+        step in my career.
+    </p>
+
+</section>
 
 
-        <!-- Code Review -->
+<!-- CAPSTONE PROJECT OVERVIEW -->
+
+<section id="overview">
+
+    <h2>Capstone Project Overview</h2>
+
+    <p>
+        For my CS 499 Computer Science Capstone, I chose to
+        enhance an Android inventory management application
+        that I originally developed in CS 360 Mobile Architecture
+        and Programming.
+    </p>
+
+    <p>
+        The original InventoryApp was designed to allow users
+        to manage inventory items using a local SQLite database.
+        While it provided basic functionality, there were
+        opportunities to improve the application's organization,
+        features, and database structure.
+    </p>
+
+    <p>
+        Throughout the capstone, I completed three enhancements
+        focused on software design and engineering, algorithms
+        and data structures, and databases. Each enhancement
+        built on the previous version of the application.
+    </p>
+
+    <div class="project-info">
+        <strong>Programming Language:</strong> Java<br>
+        <strong>Development Environment:</strong> Android Studio<br>
+        <strong>Database:</strong> SQLite<br>
+        <strong>Original Course:</strong> CS 360<br>
+        <strong>Capstone Course:</strong> CS 499
+    </div>
+
+    <p>
+        The sections below include my original project,
+        completed application, code review, and written
+        narratives explaining each enhancement.
+    </p>
+
+</section>
+
+
+<!-- CODE REVIEW -->
+
 <section id="code-review">
+
     <h2>Code Review</h2>
 
-<p>
-    Before completing my capstone enhancements, I conducted
-    a code review of my original InventoryApp project from
-    CS 360: Mobile Architecture and Programming.
-    In this review, I examined the original application's
-    structure, functionality, and areas for improvement.
-    I also explained my planned enhancements in software
-    engineering, algorithms and data structures, and databases.
-</p>
+    <p>
+        Before completing my capstone enhancements, I conducted
+        a code review of the original InventoryApp. I used OBS
+        Studio to record a walkthrough of the application and
+        explain its existing functionality.
+    </p>
 
-<iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/97gS3xxnF1o"
-    title="CS 499 Capstone Code Review"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write;
-           encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
+    <p>
+        During the review, I identified areas that could be
+        improved, including the organization of the code,
+        the limited use of algorithms and data structures,
+        and the original database design. I also explained
+        my plans for improving the application in each of
+        the three enhancement categories.
+    </p>
 
-<p>
-    <a href="https://youtu.be/97gS3xxnF1o" target="_blank"
-       rel="noopener noreferrer">
-        Watch Code Review on YouTube
+    <div class="video-container">
+        <iframe
+            src="https://www.youtube.com/embed/97gS3xxnF1o"
+            title="CS 499 Capstone Code Review"
+            allow="accelerometer; autoplay; clipboard-write;
+                   encrypted-media; gyroscope;
+                   picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <p>
+        <a class="button"
+           href="https://youtu.be/97gS3xxnF1o"
+           target="_blank"
+           rel="noopener noreferrer">
+            Watch Code Review on YouTube
+        </a>
+    </p>
+
+</section>
+
+
+<!-- ORIGINAL ARTIFACT -->
+
+<section id="original">
+
+    <h2>Original Artifact: InventoryApp</h2>
+
+    <p>
+        My original InventoryApp was created during CS 360
+        Mobile Architecture and Programming. The application
+        was developed using Java in Android Studio and used
+        SQLite to store inventory information.
+    </p>
+
+    <p>
+        The application included basic features for adding,
+        editing, viewing, and deleting inventory items.
+        However, much of the application logic was closely
+        connected to the user interface and database
+        operations. The application also lacked advanced
+        inventory analysis and reporting features.
+    </p>
+
+    <p>
+        I selected this artifact because it provided a
+        useful starting point for demonstrating improvements
+        in several areas of computer science.
+    </p>
+
+    <a class="button"
+       href="artifacts/InventoryApp%20%28Pre-Capstone-Enhancement%29.zip"
+       download>
+        Download Original InventoryApp
     </a>
-</p>
-    </section>
+
+</section>
 
 
-        <!-- Original Artifact -->
-        <section id="original-artifact">
-            <h2>Original Artifact</h2>
-        </section>
+<!-- ENHANCEMENT ONE -->
+
+<section id="enhancement-one">
+
+    <h2>Enhancement One: Software Design and Engineering</h2>
+
+    <h3>Overview</h3>
+
+    <p>
+        My first enhancement focused on improving the
+        organization, maintainability, and usability of
+        InventoryApp. The original application had a
+        relatively simple structure, with several
+        responsibilities handled directly by the
+        application's activities.
+    </p>
+
+    <p>
+        I reorganized the application into separate
+        components responsible for inventory data,
+        business logic, and database operations.
+        This included creating an InventoryItem model,
+        an InventoryRepository for data access,
+        and an InventoryService for validation
+        and inventory-related operations.
+    </p>
+
+    <h3>Improvements</h3>
+
+    <ul>
+        <li>
+            Separated user interface logic from
+            business logic and database operations.
+        </li>
+        <li>
+            Introduced reusable model, repository,
+            and service classes.
+        </li>
+        <li>
+            Improved inventory displays using RecyclerView.
+        </li>
+        <li>
+            Added improved input validation and error handling.
+        </li>
+        <li>
+            Improved the overall organization and
+            maintainability of the application.
+        </li>
+    </ul>
+
+    <h3>Skills Demonstrated</h3>
+
+    <p>
+        This enhancement demonstrates my understanding
+        of software architecture, object-oriented
+        programming, separation of concerns, and
+        application maintainability. It also helped
+        me better understand how to organize larger
+        projects so that future changes are easier
+        to implement.
+    </p>
+
+    <h3>Artifact and Narrative</h3>
+
+    <p>
+        The completed application includes this enhancement
+        along with the improvements from the other two
+        capstone categories.
+    </p>
+
+    <a class="button"
+       href="artifacts/InventoryApp%20%28Capstone%20Submission%29.zip"
+       download>
+        Download Enhanced InventoryApp
+    </a>
+
+    <a class="button"
+       href="narratives/Enhancement%201%20Narrative%20Josh%20Denbow.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Enhancement One Narrative
+    </a>
+
+</section>
 
 
-        <!-- Enhancement One -->
-        <section id="software-design">
-            <h2>Software Design and Engineering</h2>
+<!-- ENHANCEMENT TWO -->
 
-            <h3>Enhanced Artifact</h3>
+<section id="enhancement-two">
 
-            <h3>Enhancement Narrative</h3>
-        </section>
+    <h2>Enhancement Two: Algorithms and Data Structures</h2>
+
+    <h3>Overview</h3>
+
+    <p>
+        My second enhancement focused on adding more
+        advanced algorithmic functionality to InventoryApp.
+        The original application allowed users to manage
+        inventory but did not provide a way to prioritize
+        items that needed to be restocked.
+    </p>
+
+    <p>
+        To improve this, I implemented a restock
+        recommendation system using Java's PriorityQueue
+        data structure. The system examines inventory
+        quantities and reorder thresholds to identify
+        items that need attention.
+    </p>
+
+    <h3>Restock Priority Algorithm</h3>
+
+    <p>
+        Each inventory item has a reorder threshold
+        that represents the quantity at which the item
+        should be considered for restocking.
+        The application calculates the shortage using
+        the difference between the reorder threshold
+        and the current inventory quantity.
+    </p>
+
+    <p>
+        Items at or below their reorder threshold
+        are placed into a priority queue. Items
+        with larger shortages are given higher
+        priority so that the most urgent restocking
+        needs appear first.
+    </p>
+
+    <h3>Improvements</h3>
+
+    <ul>
+        <li>
+            Added reorder thresholds for inventory items.
+        </li>
+        <li>
+            Implemented a PriorityQueue to rank
+            restock recommendations.
+        </li>
+        <li>
+            Used a custom comparator to determine
+            restocking priority.
+        </li>
+        <li>
+            Added a dedicated restock recommendations view.
+        </li>
+        <li>
+            Improved inventory searching, sorting,
+            and filtering functionality.
+        </li>
+    </ul>
+
+    <h3>Skills Demonstrated</h3>
+
+    <p>
+        This enhancement demonstrates my ability
+        to select and implement an appropriate
+        data structure to solve a practical problem.
+        Using a priority queue allowed me to
+        organize inventory items based on urgency
+        while keeping the algorithm separate
+        from the user interface.
+    </p>
+
+    <p>
+        Building the priority queue takes
+        O(n log n) time when qualifying items
+        are inserted individually. This provides
+        an opportunity to explain algorithmic
+        complexity and the trade-offs involved
+        in choosing a data structure.
+    </p>
+
+    <h3>Artifact and Narrative</h3>
+
+    <a class="button"
+       href="artifacts/InventoryApp%20%28Capstone%20Submission%29.zip"
+       download>
+        Download Enhanced InventoryApp
+    </a>
+
+    <a class="button"
+       href="narratives/Enhancement%202%20Narrative%20Josh%20Denbow.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Enhancement Two Narrative
+    </a>
+
+</section>
 
 
-        <!-- Enhancement Two -->
-        <section id="algorithms">
-            <h2>Algorithms and Data Structures</h2>
+<!-- ENHANCEMENT THREE -->
 
-            <h3>Enhanced Artifact</h3>
+<section id="enhancement-three">
 
-            <h3>Enhancement Narrative</h3>
-        </section>
+    <h2>Enhancement Three: Databases</h2>
 
+    <h3>Overview</h3>
 
-        <!-- Enhancement Three -->
-        <section id="databases">
-            <h2>Databases</h2>
+    <p>
+        My third enhancement focused on improving
+        the application's SQLite database.
+        The original version used a relatively
+        basic database structure that supported
+        simple inventory operations but had
+        limited support for more advanced features.
+    </p>
 
-            <h3>Enhanced Artifact</h3>
+    <p>
+        I redesigned the database to use a more
+        organized relational structure. This
+        allowed the application to store additional
+        information, maintain inventory history,
+        and generate useful reports.
+    </p>
 
-            <h3>Enhancement Narrative</h3>
-        </section>
+    <h3>Database Design</h3>
 
-    </main>
+    <p>
+        The updated database includes four
+        main tables:
+    </p>
 
-    <footer>
-        <p>Josh Denbow | Computer Science ePortfolio</p>
-    </footer>
+    <ul>
+        <li>
+            <strong>Users:</strong>
+            Stores user account information,
+            including securely hashed passwords.
+        </li>
+        <li>
+            <strong>Categories:</strong>
+            Stores inventory category information.
+        </li>
+        <li>
+            <strong>Inventory:</strong>
+            Stores item information, quantities,
+            prices, and reorder thresholds.
+        </li>
+        <li>
+            <strong>Inventory Transactions:</strong>
+            Records changes made to inventory
+            quantities over time.
+        </li>
+    </ul>
+
+    <h3>Improvements</h3>
+
+    <ul>
+        <li>
+            Created a more normalized relational
+            database structure.
+        </li>
+        <li>
+            Added foreign key relationships
+            between related tables.
+        </li>
+        <li>
+            Added database constraints to
+            help protect data integrity.
+        </li>
+        <li>
+            Implemented transaction history
+            for inventory changes.
+        </li>
+        <li>
+            Added reporting features for
+            inventory and category information.
+        </li>
+        <li>
+            Improved password storage
+            and database security.
+        </li>
+        <li>
+            Used database transactions to
+            keep related updates consistent.
+        </li>
+    </ul>
+
+    <h3>Skills Demonstrated</h3>
+
+    <p>
+        This enhancement demonstrates my understanding
+        of relational database design, normalization,
+        SQL queries, data integrity, and secure
+        data management.
+    </p>
+
+    <p>
+        The improved database allows InventoryApp
+        to support more advanced functionality
+        while maintaining a clearer structure.
+        It also demonstrates how database design
+        affects the reliability and usefulness
+        of an application.
+    </p>
+
+    <h3>Artifact and Narrative</h3>
+
+    <a class="button"
+       href="artifacts/InventoryApp%20%28Capstone%20Submission%29.zip"
+       download>
+        Download Enhanced InventoryApp
+    </a>
+
+    <a class="button"
+       href="narratives/Enhancement%203%20Narrative%20Josh%20Denbow.pdf"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Enhancement Three Narrative
+    </a>
+
+</section>
+
+</main>
+
+<footer>
+    <p>
+        Joshua Denbow | CS 499 Computer Science Capstone
+    </p>
+    <p>
+        Southern New Hampshire University | 2026
+    </p>
+</footer>
 
 </body>
-
 </html>
